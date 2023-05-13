@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Asap:wght@300&family=Castoro+Titling&family=Lato:ital,wght@0,300;0,400;1,400&family=Lobster&family=Lora:ital@1&family=Moon+Dance&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Pacifico&family=Saira+Condensed&display=swap');
+
+  .heading h1 {
+    text-align: center;
+    background-color: rgb(18, 170, 145);
+    color: white;
+    font-family: 'Lobster', cursive;
+    top: 0;
+  }
+  
+  form {
+    background-color: rgb(215, 252, 248);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    width: 100%;
+    justify-self: center;
+    font-size:x-large;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #resultContainer {
+    margin-top: 20px;
+    background-color: rgb(215, 252, 248);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .hidden {
+    display: none;
+  } */
+  
+  .result-text {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .result-grade {
+    font-size: 24px;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #studentName,#studentRollNumber,#totalMarks,#gradePercentage,#grade{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Castoro Titling', cursive;
+
+  }
+  
+  
+
+/* .hidden {
+    display: none;
+  } */
+  
